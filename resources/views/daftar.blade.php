@@ -65,7 +65,7 @@
           </div>
     </div>
     <div class="text-center d-grid gap-2 col-6 mx-auto">
-        <a href="" class="btn btn-success mt-5">
+        <a href="/cs" class="btn btn-success mt-5">
           Daftar
         </a>
         <br>

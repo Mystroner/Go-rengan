@@ -28,3 +28,7 @@ Route::get('/daftar', function () {
 Route::get('/cs', function () {
     return view('cs');
 });
+
+Route::get('/toko', function () {
+    return view('toko');
+});
