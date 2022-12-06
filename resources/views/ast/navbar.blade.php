@@ -1,20 +1,22 @@
-<nav class="navbar navbar-expand-lg" style="background-color: #ffcc80">
+<nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Gorengan</a>
+      <a class="navbar-brand" href="/">
+        <b>Go-rengan</b>
+      </a>
       </button>
       <div class="navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/">Home</a>
+            <a class="nav-link text-dark" href="/">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/shop">Shop</a>
+            <a class="nav-link text-dark" href="/shop">Mitra Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/daftar">Daftar Toko</a>
+            <a class="nav-link text-dark" href="/daftar">Daftar Mitra</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/cs">Contact Support</a>
+            <a class="nav-link text-dark" href="/cs">Kontak Kami</a>
           </li>
         </ul>
       </div>
@@ -26,3 +28,14 @@
   </a>
   
 </div>
+
+<style>
+  .navbar-custom {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 10%)
+  }
+</style>
